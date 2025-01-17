@@ -70,3 +70,11 @@ Se você encontrar problemas ou tiver dúvidas, entre em contato pelo e-mail de 
 ## Licença
 
 Este plugin está licenciado sob a [Licença GPLv2](https://www.gnu.org/licenses/gpl-2.0.html). Você pode utilizá-lo e modificá-lo conforme necessário.
+
+
+## Referências:
+
+- https://developer.wordpress.org/coding-standards/wordpress-coding-standards/
+- https://developer.wordpress.org/plugins/
+- https://developer.wordpress.org/plugins/hooks/
+- https://codex.wordpress.org/I18n_for_WordPress_Developers
