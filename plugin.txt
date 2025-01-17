@@ -16,7 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+//add message at the end of posts content
 function client_customization_add_message( $content ) {
+    //only add the message to posts
     if ( is_singular( 'post' ) ) {
         $message = sprintf(
             '<p><b>%s: %s (%s)</b></p>',
