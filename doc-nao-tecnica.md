@@ -1,24 +1,14 @@
-## O que foi solicitado:
+## Respostas ao Questionário Não Técnico
 
-Referente ao código apresentado na **ETAPA 1**, responda as questões abaixo:
+### Como você melhoraria a legibilidade do código?
+- Tornei o código mais claro ao usar uma função com nome descritivo, facilitando o entendimento.
+- Acrescentei comentários que explicam o que cada parte do código faz.
+- Organizei a criação da mensagem para que ficasse mais fácil de entender e editar.
 
-1. Como você melhoraria a legibilidade do código?
-2. Como você alteraria o código para a frase ser exibida em sites com múltiplos idiomas?
-3. Para se adequar ao WordPress Code Standard, qual ajuste no tipo de função você faria?
+### Como você alteraria o código para a frase ser exibida em sites com múltiplos idiomas?
+- Fiz ajustes para que o texto pudesse ser traduzido para diferentes idiomas, utilizando ferramentas próprias do WordPress.
+- Configurei o código para que ele identificasse e utilizasse traduções de acordo com o idioma configurado no site.
 
----
-
-## O que foi feito:
-
-### 1. Melhorias na legibilidade do código:
-- Extraí a mensagem para uma variável fora da função `add_filter` para evitar que ela seja criada a cada execução.
-- Usei nomes mais descritivos para variáveis e funções, facilitando a compreensão do código.
-- Adicionei comentários pontuais sobre o código para facilitar entendimento (apesar de evitar comentários que expliquem lógica óbvia).
-
-### 2. Compatibilidade com múltiplos idiomas:
-- Usei as funções `__()` ou `_e()` do WordPress para permitir tradução.
-- Criei arquivos `.pot` para tradução com base no domínio de texto (`Text Domain`).
-
-### 3. Adequação ao WordPress Code Standard:
-- Substituí a função anônima por uma função nomeada.
-- Preferi o uso de hooks com funções globais, respeitando as boas práticas do WordPress.
+### Para se adequar ao WordPress Code Standard, qual ajuste no tipo de função você faria?
+- Transformei o código em uma estrutura que segue os padrões de codificação do WordPress, o que ajuda a manter consistência e facilita a colaboração com outros desenvolvedores.
+- Adicionei verificações para garantir que o código só será aplicado em posts e não em outras partes do site.
